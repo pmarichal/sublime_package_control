@@ -26,6 +26,10 @@
 	// The number of seconds to cache repository and package info for
 	"cache_length": 300,
 
+	// The proxy server to use for (works for all downloader: python urllib2, wget and curl)
+	// set to "servername.com:port" or "1.2.3.4:6" for ip
+	"proxy": "",
+
 	// Custom paths to VCS binaries for when they can't be automatically
 	// found on the system and a package includes a VCS metadata directory
 	"git_binary": "",
